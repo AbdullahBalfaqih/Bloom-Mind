@@ -12,18 +12,18 @@
   <br />
 </div>
 
-## 🌍 The Global Problem
+## The Global Problem
 In today's hyper-connected world, mindless scrolling and social media addiction have become a modern epidemic. Millions of people lose hours daily to non-productive content, leading to decreased attention spans, burnout, and mental fatigue. Traditional screen-time apps rely on strict blocking or guilt-tripping, which often leads to user frustration and eventual abandonment.
 
-## 💡 Our Motivation
+## Our Motivation
 We believe that **positive reinforcement** is significantly more effective than restriction. What if the time you save by putting down your phone could literally breathe life into something beautiful? **BloomMind AI** was born to bridge the gap between digital well-being and gamified persistence.
 
-## 🚀 The Solution: BloomMind AI
+## The Solution: BloomMind AI
 BloomMind is a privacy-first, offline-capable mobile application that uses **Google Gemma (On-Device via Ollama)** to act as your personalized digital wellness coach. 
 
 Instead of locking your phone, BloomMind rewards your focus. When you stay away from addictive apps and complete focus sessions, the AI analyzes your behavioral patterns and rewards you with unique seeds. You can plant, grow, and water an interactive virtual garden that reflects your real-life digital health.
 
-### ✨ Core Features
+### Core Features
 | Feature | Description |
 | :--- | :--- |
 | **🧠 Local AI Brain** | Powered by **Gemma 2B** running entirely locally via Ollama. 100% offline reasoning, preserving your privacy while delivering intelligent, dynamic coaching. |
@@ -32,7 +32,7 @@ Instead of locking your phone, BloomMind rewards your focus. When you stay away 
 | **📊 Intelligent Memory** | The app securely logs your habits using local SQLite, predicting burnout and streak-loss probabilities to adjust difficulty dynamically. |
 | **🤝 Social Synergy (Vision)** | Visit your friends' gardens, compete in focus leaderboards, and use your extra water points to water your friends' dying plants to build a supportive community! |
 
-## 🏗️ Architecture & Technical Stack
+## Architecture & Technical Stack
 
 Our system is engineered to satisfy the **Google Gemma Hackathon (On-Device / Edge Track)** requirements.
 
@@ -53,7 +53,7 @@ graph TD
     F <-->|Offline Localhost API| J[(Ollama: Gemma 2B)]
 ```
 
-### 🗂️ Project Tree Structure
+### Project Tree Structure
 
 ```text
 📦 bloommind
@@ -72,7 +72,7 @@ graph TD
  ┗ 📜 package.json
 ```
 
-## 🛠️ How to Run Locally (For Judges)
+## How to Run Locally (For Judges)
 
 Because BloomMind relies on **On-Device inference**, you need to run the Gemma model locally.
 
