@@ -1,7 +1,7 @@
 import { View, Text, Image, Pressable, TextInput, KeyboardAvoidingView, Platform, ScrollView, Alert } from 'react-native';
 import { useState, useEffect } from 'react';
 import { useRouter } from 'expo-router';
-import { ArrowRight, EyeOff, Home, Target, Sprout, Sparkles, Trophy, ScanFace } from 'lucide-react-native';
+import { ArrowRight, EyeOff, Home, ShieldCheck, Sprout, Sparkles, Trophy, ScanFace } from 'lucide-react-native';
 import Animated, { FadeIn, FadeInDown, SlideInRight, ZoomIn } from 'react-native-reanimated';
 import * as LocalAuthentication from 'expo-local-authentication';
 import * as Notifications from 'expo-notifications';
@@ -9,10 +9,10 @@ import * as Notifications from 'expo-notifications';
 type Step = 'launch1' | 'onboarding' | 'authSelection' | 'login' | 'signup' | 'forgotPassword' | 'resetPassword';
 
 const ONBOARDING_SLIDES = [
-  { id: 0, title: 'Comfortable Space', desc: 'Create your perfect digital sanctuary away from distractions and achieve your goals.', icon: Target },
-  { id: 1, title: 'Modern Design', desc: 'Plant seeds of productivity and watch them grow into a beautiful virtual garden.', icon: Sprout },
-  { id: 2, title: 'Styled Living', desc: 'Your personal AI coach guides you through your daily tasks and challenges.', icon: Sparkles },
-  { id: 3, title: 'Relaxing Furniture', desc: 'Harvest your rewards and stay consistent every single day to build a better you.', icon: Trophy }
+  { id: 0, title: 'Privacy First', desc: 'Your data never leaves your device. BloomMind runs locally using On-Device AI for complete offline privacy.', icon: ShieldCheck },
+  { id: 1, title: 'Focus to Grow', desc: 'Stay away from distractions. Your focus time plants seeds that grow into a beautiful virtual garden.', icon: Sprout },
+  { id: 2, title: 'Intelligent Coach', desc: 'Your personal Gemma-powered AI coach analyzes your habits and guides you towards digital well-being.', icon: Sparkles },
+  { id: 3, title: 'Build Habits', desc: 'Harvest your rewards, earn water drops, and stay consistent every single day to build a better you.', icon: Trophy }
 ];
 
 export default function Root() {
@@ -180,7 +180,7 @@ export default function Root() {
           </Animated.View>
           
           <Text className="text-[#999999] text-center text-sm leading-5 mb-10 px-4">
-            Create your perfect digital sanctuary away from distractions and achieve your goals.
+            Reclaim your time. Let our 100% Offline AI help you build a thriving digital sanctuary away from distractions.
           </Text>
 
           <Pressable 
