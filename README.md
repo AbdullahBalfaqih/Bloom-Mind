@@ -13,7 +13,7 @@
 </div>
 
 ## The Global Problem
-In today's hyper-connected world, mindless scrolling and social media addiction have become a modern epidemic. Millions of people lose hours daily to non-productive content, leading to decreased attention spans, burnout, and mental fatigue. Traditional screen-time apps rely on strict blocking or guilt-tripping, which often leads to user frustration and eventual abandonment.
+In today's hyper-connected world, mindless scrolling and social media addiction have become a modern epidemic. Millions of people lose hours daily to non-productive content, leading to decreased attention spans, severe productivity loss, and chronic distraction. Traditional screen-time apps rely on strict blocking or guilt-tripping, which often leads to user frustration and eventual abandonment.
 
 ## Our Motivation
 We believe that **positive reinforcement** is significantly more effective than restriction. What if the time you save by putting down your phone could literally breathe life into something beautiful? **BloomMind AI** was born to bridge the gap between digital well-being and gamified persistence.
@@ -37,7 +37,7 @@ We built this project specifically for **"The Edge / On-Device Track: Best mobil
 | **Local AI Brain** | Powered by **Gemma 2B** running entirely locally via Ollama. 100% offline reasoning, preserving your privacy while delivering intelligent, dynamic coaching. |
 | **Focus-to-Earn** | Stay focused during Pomodoro-style sessions. The AI evaluates your session length and risk levels, rewarding you with XP, water points, and rare seeds. |
 | **Interactive Garden** | A stunning, realistic virtual garden. Plant your earned seeds, watch them sprout, grow into mature plants, and unlock environment upgrades like Rain and Lakes. |
-| **Intelligent Memory** | The app securely logs your habits using local SQLite, predicting burnout and streak-loss probabilities to adjust difficulty dynamically. |
+| **Intelligent Memory** | The app securely logs your habits using local SQLite, predicting distraction risk and streak-loss probabilities to adjust difficulty dynamically. |
 | **Social Synergy (Vision)** | Visit your friends' gardens, compete in focus leaderboards, and use your extra water points to water your friends' dying plants to build a supportive community! |
 
 ## Architecture & Technical Stack
@@ -50,12 +50,12 @@ graph TD
     B -->|Trigger Session End| C{AI Decision Pipeline}
     
     subgraph Autonomous Agent Pipeline
-    C --> D[Update Memory Skill]
-    D --> E[Recommendation Generator]
-    E --> F[Prompt Gemma Model]
-    F --> G[Explainability & Confidence Scoring]
-    G --> H[Update Farm State]
-    H --> I[SQLite Persistence]
+    C --> D[Retrieve SQLite Memory]
+    D --> E[Formulate Habit Strategy]
+    E --> F[Prompt Gemma 2B Model]
+    F --> G[Extract JSON Decision Matrix]
+    G --> H[Update Virtual Farm State]
+    H --> I[Schedule Push Notifications]
     end
 
     F <-->|Offline Localhost API| J[(Ollama: Gemma 2B)]

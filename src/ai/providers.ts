@@ -170,7 +170,7 @@ Be creative, friendly, and human-like. DO NOT act robotic. DO NOT use placeholde
         focus_score: isGoodBehavior ? 85 : 40,
         habit_score: isGoodBehavior ? 70 : 30,
         risk_level: isGoodBehavior ? "low" : "high",
-        burnout_probability: 0.15,
+        distraction_probability: 0.15,
         predicted_tomorrow_usage: builtContext.compressedMemory.avgUsage > 0 ? builtContext.compressedMemory.avgUsage : 120,
         recommended_limit: 60,
         should_reward: isGoodBehavior,
