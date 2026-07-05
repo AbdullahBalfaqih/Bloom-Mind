@@ -1,6 +1,6 @@
 <div align="center">
   
-  # 🌱 BloomMind AI
+  # BloomMind AI
   
   **Transform your digital habits into a thriving virtual garden. A 100% Offline, Privacy-First AI Coach powered by On-Device Google Gemma.**
   
@@ -8,6 +8,11 @@
   [![Expo](https://img.shields.io/badge/Expo-1B1F23?style=for-the-badge&logo=expo&logoColor=white)](https://expo.dev/)
   [![Google Gemma](https://img.shields.io/badge/Google_Gemma-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/gemma)
   [![Ollama](https://img.shields.io/badge/Ollama-black?style=for-the-badge&logo=ollama&logoColor=white)](https://ollama.com/)
+  <br />
+  [![Cursor Track](https://img.shields.io/badge/Sponsored_by-Cursor-black?style=for-the-badge)](https://cursor.com/)
+  [![Vultr Track](https://img.shields.io/badge/Sponsored_by-Vultr-0056FF?style=for-the-badge)](https://vultr.com/)
+  [![Crusoe Track](https://img.shields.io/badge/Sponsored_by-Crusoe-FF4B4B?style=for-the-badge)](https://crusoe.ai/)
+  [![DeepMind Track](https://img.shields.io/badge/Sponsored_by-Google_DeepMind-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://deepmind.google/)
   
   <br />
 </div>
@@ -26,10 +31,10 @@ Instead of locking your phone, BloomMind rewards your focus. When you stay away 
 ## 🏆 Hackathon Track Alignment (Edge / On-Device)
 We built this project specifically for **"The Edge / On-Device Track: Best mobile, web, or edge application running Gemma locally for offline, privacy-first inference."**
 
-- **🔒 Privacy-First Inference (Top Priority)**: Your personal behavioral data, focus metrics, and failure states never leave your device. All states are logged to local SQLite databases and analyzed securely by local Gemma.
-- **🔌 100% Offline Engine**: Zero cloud APIs are used for inference. The entire AI Decision Pipeline operates disconnected from the internet.
-- **🧠 Running Gemma Locally**: Powered exclusively by Google's **Gemma 2B** model operating on the edge hardware.
-- **📱 Mobile Application**: Built completely as a cross-platform mobile application using React Native.
+- **Privacy-First Inference (Top Priority)**: Your personal behavioral data, focus metrics, and failure states never leave your device. All states are logged to local SQLite databases and analyzed securely by local Gemma.
+- **100% Offline Engine**: Zero cloud APIs are used for inference. The entire AI Decision Pipeline operates disconnected from the internet.
+- **Running Gemma Locally**: Powered exclusively by Google's **Gemma 2B** model operating on the edge hardware.
+- **Mobile Application**: Built completely as a cross-platform mobile application using React Native.
 
 ### Core Features
 | Feature | Description |
@@ -115,5 +120,5 @@ Because BloomMind relies on **On-Device inference**, you need to run the Gemma m
 
 ---
 <div align="center">
-  <i>Built with ❤️ for the RAISE Summit Hackathon 2026</i>
+  <i>Built for the RAISE Summit Hackathon 2026</i>
 </div>
