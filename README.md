@@ -10,8 +10,6 @@
   [![Ollama](https://img.shields.io/badge/Ollama-black?style=for-the-badge&logo=ollama&logoColor=white)](https://ollama.com/)
   <br />
   [![Cursor Track](https://img.shields.io/badge/Cursor-black?style=for-the-badge)](https://cursor.com/)
-  [![Vultr Track](https://img.shields.io/badge/Vultr-0056FF?style=for-the-badge)](https://vultr.com/)
-  [![Crusoe Track](https://img.shields.io/badge/Crusoe-FF4B4B?style=for-the-badge)](https://crusoe.ai/)
   [![DeepMind Track](https://img.shields.io/badge/Google_DeepMind-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://deepmind.google/)
   
   <br />
