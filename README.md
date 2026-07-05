@@ -2,7 +2,7 @@
   
   # 🌱 BloomMind AI
   
-  **Transform your digital habits into a thriving, breathing virtual garden powered by On-Device Local AI.**
+  **Transform your digital habits into a thriving virtual garden. A 100% Offline, Privacy-First AI Coach powered by On-Device Google Gemma.**
   
   [![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactnative.dev/)
   [![Expo](https://img.shields.io/badge/Expo-1B1F23?style=for-the-badge&logo=expo&logoColor=white)](https://expo.dev/)
@@ -26,10 +26,10 @@ Instead of locking your phone, BloomMind rewards your focus. When you stay away 
 ## 🏆 Hackathon Track Alignment (Edge / On-Device)
 We built this project specifically for **"The Edge / On-Device Track: Best mobile, web, or edge application running Gemma locally for offline, privacy-first inference."**
 
-- **📱 Mobile Application**: Built completely as a cross-platform mobile application using React Native.
+- **🔒 Privacy-First Inference (Top Priority)**: Your personal behavioral data, focus metrics, and failure states never leave your device. All states are logged to local SQLite databases and analyzed securely by local Gemma.
+- **🔌 100% Offline Engine**: Zero cloud APIs are used for inference. The entire AI Decision Pipeline operates disconnected from the internet.
 - **🧠 Running Gemma Locally**: Powered exclusively by Google's **Gemma 2B** model operating on the edge hardware.
-- **🔌 100% Offline**: Zero cloud APIs are used for inference. The entire AI Decision Pipeline operates disconnected from the internet.
-- **🔒 Privacy-First Inference**: Your personal behavioral data, focus metrics, and failure states never leave your device. All states are logged to local SQLite databases and analyzed securely by local Gemma.
+- **📱 Mobile Application**: Built completely as a cross-platform mobile application using React Native.
 
 ### Core Features
 | Feature | Description |
