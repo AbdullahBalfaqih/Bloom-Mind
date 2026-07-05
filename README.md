@@ -26,11 +26,11 @@ Instead of locking your phone, BloomMind rewards your focus. When you stay away 
 ### Core Features
 | Feature | Description |
 | :--- | :--- |
-| **🧠 Local AI Brain** | Powered by **Gemma 2B** running entirely locally via Ollama. 100% offline reasoning, preserving your privacy while delivering intelligent, dynamic coaching. |
-| **🍅 Focus-to-Earn** | Stay focused during Pomodoro-style sessions. The AI evaluates your session length and risk levels, rewarding you with XP, water points, and rare seeds. |
-| **🌳 Interactive Garden** | A stunning, realistic virtual garden. Plant your earned seeds, watch them sprout, grow into mature plants, and unlock environment upgrades like Rain and Lakes. |
-| **📊 Intelligent Memory** | The app securely logs your habits using local SQLite, predicting burnout and streak-loss probabilities to adjust difficulty dynamically. |
-| **🤝 Social Synergy (Vision)** | Visit your friends' gardens, compete in focus leaderboards, and use your extra water points to water your friends' dying plants to build a supportive community! |
+| **Local AI Brain** | Powered by **Gemma 2B** running entirely locally via Ollama. 100% offline reasoning, preserving your privacy while delivering intelligent, dynamic coaching. |
+| **Focus-to-Earn** | Stay focused during Pomodoro-style sessions. The AI evaluates your session length and risk levels, rewarding you with XP, water points, and rare seeds. |
+| **Interactive Garden** | A stunning, realistic virtual garden. Plant your earned seeds, watch them sprout, grow into mature plants, and unlock environment upgrades like Rain and Lakes. |
+| **Intelligent Memory** | The app securely logs your habits using local SQLite, predicting burnout and streak-loss probabilities to adjust difficulty dynamically. |
+| **Social Synergy (Vision)** | Visit your friends' gardens, compete in focus leaderboards, and use your extra water points to water your friends' dying plants to build a supportive community! |
 
 ## Architecture & Technical Stack
 
@@ -38,8 +38,8 @@ Our system is engineered to satisfy the **Google Gemma Hackathon (On-Device / Ed
 
 ```mermaid
 graph TD
-    A[📱 React Native / Expo Frontend] -->|State & UI| B(Zustand State Manager)
-    B -->|Trigger Session End| C{🤖 AI Decision Pipeline}
+    A[React Native / Expo Frontend] -->|State & UI| B(Zustand State Manager)
+    B -->|Trigger Session End| C{AI Decision Pipeline}
     
     subgraph Autonomous Agent Pipeline
     C --> D[Update Memory Skill]
