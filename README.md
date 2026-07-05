@@ -69,7 +69,7 @@ graph TD
  ┃ ┣ 📂 ai                 # The core AI Agent Pipeline
  ┃ ┃ ┣ 📂 pipeline         # Dependency Injected Skills (Memory, Rewards, Farm Update)
  ┃ ┃ ┣ 📜 memory.ts        # Behavioral tracking schema
- ┃ ┃ ┣ 📜 prediction.ts    # Burnout & streak prediction heuristics
+ ┃ ┃ ┣ 📜 prediction.ts    # Distraction risk & streak heuristics
  ┃ ┃ ┗ 📜 providers.ts     # LocalGemmaProvider (Ollama Integration)
  ┃ ┣ 📂 app                # Expo Router App Navigation
  ┃ ┃ ┣ 📂 (tabs)           # Main Bottom Tabs (Farm, Coach, Statistics)
