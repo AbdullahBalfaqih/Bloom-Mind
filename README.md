@@ -23,6 +23,14 @@ BloomMind is a privacy-first, offline-capable mobile application that uses **Goo
 
 Instead of locking your phone, BloomMind rewards your focus. When you stay away from addictive apps and complete focus sessions, the AI analyzes your behavioral patterns and rewards you with unique seeds. You can plant, grow, and water an interactive virtual garden that reflects your real-life digital health.
 
+## 🏆 Hackathon Track Alignment (Edge / On-Device)
+We built this project specifically for **"The Edge / On-Device Track: Best mobile, web, or edge application running Gemma locally for offline, privacy-first inference."**
+
+- **📱 Mobile Application**: Built completely as a cross-platform mobile application using React Native.
+- **🧠 Running Gemma Locally**: Powered exclusively by Google's **Gemma 2B** model operating on the edge hardware.
+- **🔌 100% Offline**: Zero cloud APIs are used for inference. The entire AI Decision Pipeline operates disconnected from the internet.
+- **🔒 Privacy-First Inference**: Your personal behavioral data, focus metrics, and failure states never leave your device. All states are logged to local SQLite databases and analyzed securely by local Gemma.
+
 ### Core Features
 | Feature | Description |
 | :--- | :--- |
