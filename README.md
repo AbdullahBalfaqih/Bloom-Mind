@@ -74,6 +74,12 @@ graph TD
 
 ## How to Run Locally (For Judges)
 
+> [!NOTE]  
+> **Technical limitation during the Hackathon:**  
+> Our primary goal for the Edge/On-Device track was to run the Gemma 2B model natively inside the mobile application (e.g., via MediaPipe or TFLite). However, due to developing entirely on a **Windows machine** without access to a Mac, compiling and testing native C++ AI runtimes for mobile (especially iOS) within the hackathon timeframe was not feasible. 
+> 
+> As a functional workaround to demonstrate the **Offline/Edge** capabilities, we are running Gemma 2B locally on the host machine via **Ollama**, and the mobile app communicates with it directly over the local network proxy. **No cloud APIs are used.**
+
 Because BloomMind relies on **On-Device inference**, you need to run the Gemma model locally.
 
 ### 1. Setup the AI Engine (Ollama)
