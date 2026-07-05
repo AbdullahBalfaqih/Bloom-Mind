@@ -120,5 +120,5 @@ Because BloomMind relies on **On-Device inference**, you need to run the Gemma m
 
 ---
 <div align="center">
-  <i>Built for the RAISE Summit Hackathon 2026</i>
+  <i>Built with ❤️ for the RAISE Summit Hackathon 2026 ❤️</i>
 </div>
