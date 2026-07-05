@@ -48,7 +48,14 @@ export class LocalGemmaProvider implements AIProvider {
     // RESPONSIBILITY: Execute local inference (No internet, No OpenAI, No Gemini API)
     console.log("[LocalGemmaProvider] Running local inference via Ollama for chat...");
     
-    const systemPrompt = `You are the BloomMind AI Coach. Your primary goal is to help the user reduce social media addiction, minimize non-productive screen time, and stay focused on meaningful work/study. The virtual farm is just a reward mechanism. DO NOT talk about 'Llama' or focus excessively on the 'farm' unless asked. Instead, provide practical advice on digital well-being, avoiding distractions, and building healthy habits. Be concise, empathetic, and always respond in the SAME language the user speaks.`;
+    const currentTime = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+    const currentDay = new Date().toLocaleDateString([], { weekday: 'long' });
+
+    const systemPrompt = `You are the BloomMind AI Coach. Current Time: ${currentTime}, ${currentDay}. 
+You are an empathetic, highly intelligent, and conversational companion. 
+First, directly and naturally answer whatever the user asks you (e.g., if they ask the time, tell them the exact time). 
+Then, if appropriate, gently steer the conversation towards their digital well-being, reducing screen time, or staying focused. 
+Be creative, friendly, and human-like. DO NOT act robotic. DO NOT use placeholders like [Current Time]. Respond in the exact SAME language the user speaks.`;
     
     // Convert chat history into context string for simple generate endpoint
     const historyText = history.slice(-5).map(m => `${m.sender}: ${m.text}`).join('\n');
